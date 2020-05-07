@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blue-black: #334a6b;
+    --blue-white: #d5dfed;
+    --navy: #2c3642;
+    --light-blue: #9ad6d2;
+}
+
+body {
+    color: var(--blue-black);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--blue-white);
+}
+
+header {
+    background-color: var(--navy);
+    padding: 20px 0 20px 0;
+    position: sticky;
+}
+
+header h1 {
+    background-color: var(--light-blue);
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: var(--navy);
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    display: inline-block;
+    height: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: large;
+    color: var(--light-blue);
+    padding: 10px;
+    border-bottom: 3px solid var(--light-blue);
+    line-height: 3.0;
+}
+
+.hero {
+    background-image: url("../images/mask-guy.jpg");
+    background-size: cover;
+    background-position: 50% 40%;
+    height: 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-top: 5px;
+}
+
+.hero div {
+    background: var(--light-blue);
+    color: var(--blue-black);
+    padding: 5px;
+}
+
+section {
+    display: flex;
+}
+
+.section-title {
+    float: left;
+    
+    border-right: 5px solid var(--blue-black);
+}
