@@ -165,7 +165,7 @@ nav ul li a {
     justify-content: center;
 }
 
-.resume-container {
+#resume a {
     width: 75%;
     height: 200px;
     background: var(--blue-black);
