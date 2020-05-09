@@ -40,10 +40,12 @@ nav ul {
     width: 100%;
     display: inline-block;
     height: 20px;
+    text-align: center;
 }
 
 nav ul li {
     display: inline-block;
+    margin: 0 2px 0 2px;
 }
 
 nav ul li a {
@@ -72,12 +74,39 @@ nav ul li a {
     padding: 5px;
 }
 
-section {
-    display: flex;
+.section-title {
+    text-align: center;
+    border-bottom: 5px solid var(--blue-black);
+    border-top: 5px solid var(--blue-black);
+    background-color: var(--light-blue);
+    margin: 20px 0 20px 0;
 }
 
-.section-title {
-    float: left;
-    
-    border-right: 5px solid var(--blue-black);
+.section-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+}
+
+.section-content p {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.grid-item {
+    border: 2px solid var(--navy);
+    margin: 5px;
+    padding: 15px
+}
+
+.grid-item.large {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
 }
