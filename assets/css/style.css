@@ -159,3 +159,18 @@ nav ul li a {
     border-bottom: 2px solid var(--blue-black);
     line-height: 2.0;
 }
+
+#resume .section-content {
+    display: flex;
+    justify-content: center;
+}
+
+#resume a {
+    width: 75%;
+    height: 200px;
+    background: var(--blue-black);
+    border-radius: 15px;
+    background-image: url(../images/resume.png);
+    background-size: cover;
+}
+
