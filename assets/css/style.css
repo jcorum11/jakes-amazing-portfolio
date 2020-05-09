@@ -71,6 +71,7 @@ nav ul li a {
     background: var(--light-blue);
     color: var(--blue-black);
     padding: 5px;
+    border-bottom-left-radius: 10px;
 }
 
 .section-title {
@@ -85,11 +86,10 @@ nav ul li a {
     justify-content: space-around;
     align-items: center;
     font-size: large;
-    padding: 20px
+    padding: 20px;
 }
 
 .section-content p {
-    text-align: center;
     line-height: 1.5;
 }
 
@@ -106,8 +106,44 @@ nav ul li a {
 .grid-item {
     border: 2px solid var(--navy);
     margin: 20px;
-    padding: 30px;
-    background: var(--blue-white);
+    padding: 30px 30px 30px 0;
+    background-size: 200%;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.grid-item a {
+    text-decoration: none;
+    color: var(--blue-black);
+}
+
+.surf-report {
+    background-image: url("../images/surf-report.jpg");
+    background-position: 15% 75%;
+}
+
+.led-wall {
+    background-image: url("../images/led-wall.png");
+    background-position: center center;
+}
+
+.calculator {
+    background-image: url("../images/calculator.jpg");
+    background-position: left 25%;
+}
+
+.pastel-puzzles {
+    background-image: url("../images/pastel-puzzle.jpg");
+    background-position: 15% center;
+}
+
+.run-buddy {
+    background-image: url("../images/run-buddy.png");
+    background-position: center;
+}
+
+.blue-background {
+    background-color: var(--light-blue);
+    padding: 20px;
+    width: 75%;
 }
