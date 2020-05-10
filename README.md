@@ -13,4 +13,4 @@ https://jcorum11.github.io/jakes-amazing-portfolio/
 ## Contribution
 Made with 🤪 by Jake
 
-![Horiseon website](./website.png)
+![Horiseon website]("./assets/images.website.png")
