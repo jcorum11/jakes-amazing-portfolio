@@ -174,3 +174,10 @@ nav ul li a {
     background-size: cover;
 }
 
+footer {
+    text-align: center;
+    background-color: var(--navy);
+    color: var(--light-blue);
+    padding: 10px;
+}
+
