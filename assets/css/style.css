@@ -21,7 +21,6 @@ body {
 header {
     background-color: var(--navy);
     padding: 20px 0 20px 0;
-    position: sticky;
 }
 
 header h1 {
@@ -59,9 +58,9 @@ nav ul li a {
 }
 
 .hero {
-    background-image: url("../images/mask-guy.jpg");
+    background-image: url("../images/profile.jpg");
     background-size: cover;
-    background-position: 50% 40%;
+    background-position: 50% 35%;
     height: 200px;
     display: flex;
     justify-content: flex-end;
@@ -203,6 +202,7 @@ footer {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        position: sticky;
     }
 
     header ul {
@@ -290,8 +290,9 @@ footer {
 
     #contact-me .section-content {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
+        padding-left: 20px;
     }
 
     #contact-me a:hover {
