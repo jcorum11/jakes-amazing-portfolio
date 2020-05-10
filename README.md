@@ -13,4 +13,4 @@ https://jcorum11.github.io/jakes-amazing-portfolio/
 ## Contribution
 Made with 🤪 by Jake
 
-![Jake's Portfolio]("./website.png")
+![Jake's Portfolio](./website.png)
