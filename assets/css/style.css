@@ -119,29 +119,29 @@ nav ul li a {
     color: var(--blue-black);
 }
 
-.surf-report {
-    background-image: url("../images/surf-report.jpg");
-    background-position: 15% 75%;
+.dnd-tracker {
+    background-image: url("../images/d&dTracker.png");
+    background-size: cover;
 }
 
-.led-wall {
-    background-image: url("../images/led-wall.png");
-    background-position: center center;
+.test-rabbit {
+    background-image: url("../images/test-rabbit.png");
+    background-size: cover;
 }
 
-.calculator {
-    background-image: url("../images/calculator.jpg");
-    background-position: left 25%;
+.storm-ly {
+    background-image: url("../images/storm-ly.png");
+    background-size: cover;
 }
 
 .pastel-puzzles {
-    background-image: url("../images/pastel-puzzle.jpg");
+    background-image: url("../images/README-zing.png");
     background-position: 15% center;
 }
 
 .run-buddy {
     background-image: url("../images/run-buddy.png");
-    background-position: center;
+    background-size: cover;
 }
 
 .blue-background {
